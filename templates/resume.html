@@ -79,6 +79,17 @@
                 {% endfor %}
 
             </section>
+
+            <section id="interests">
+                {% if hobbies %}
+                <h2>Hobbies and other Interests</h2>
+                <ul>
+                    {% for hobby in hobbies %}
+                    <li>{{hobby}}</li>
+                    {% endfor %}
+                </ul>
+                {% endif  %}
+            </section>
         </div>
 
 
