@@ -8,8 +8,10 @@
     tools:
         - Amazon Web Services
         - Flask
-        - D3
+        - Gunicorn & Nginx
+        - Celery / AMQP
         - Redis
+        - D3
         - Numpy / Scipy / iPython Notebook
         - MediaWiki
 
@@ -24,14 +26,18 @@
         - Django
         - JQuery
         - Backbone.js / underscore.js
+        - AMQP, ZeroMQ
+        - Flot
         - Google Earth and Maps APIs
         - Google App Engine
         - Google Cloud Storage
         - MySQL, PostgreSQL, SQLite
-        - Flot
-        - Sphinx
         - CouchDB
-        - Vision Workbench
+        - Sphinx
+        - Varnish
+        - Amazon EC2
+        - Vagrant
+        - Varnish
 
 -
     id: urbanmapping
@@ -43,6 +49,7 @@
         - PostgreSQL / PostGIS
         - Ruby on Rails
         - Python / Django
+        - lighttpd
         - SOAP and RESTful web services
         - GDAL (Geodata Abstraction Layer) Tools
         - Google Earth, Google Maps APIs
