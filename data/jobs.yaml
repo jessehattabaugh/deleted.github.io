@@ -4,12 +4,12 @@
     institution: Stanford University
     title: Computational Research Engineer 
     dates: May 2009 - Present
-    description: Development of large-scale parallel image processing pipeline in Python/NumPy on EC2 that automatically scales with demand. Web-based monitoring tools using Flask and Redis.
+    description: Development of large-scale parallel image processing pipeline in Python/NumPy on EC2 that automatically scales with demand. Web-based monitoring tools using Flask and Redis. Interactive data displays.
     tools:
         - Amazon Web Services
         - Flask
-        - Redis
         - D3
+        - Redis
         - Numpy / Scipy / iPython Notebook
         - MediaWiki
 
@@ -22,16 +22,15 @@
     description: Lead development of large-scale distributed data processing pipeline to create high-resolution global maps of Mars from satellite imagery. Created full-stack web-based tools for NASA science data visualization, robotic field operations, and public outreach web destinations.
     tools:
         - Django
-        - MySql
-        - Sphinx
         - JQuery
         - Backbone.js / underscore.js
-        - Flot
         - Google Earth and Maps APIs
         - Google App Engine
         - Google Cloud Storage
         - MySQL, PostgreSQL, SQLite
-        - Couch DB
+        - Flot
+        - Sphinx
+        - CouchDB
         - Vision Workbench
 
 -
