@@ -1,0 +1,81 @@
+-   
+    id: CNC 
+    employer: CNC Lab
+    institution: Stanford University
+    title: Computational Research Engineer 
+    dates: May 2009 - Present
+    description: Development of large-scale parallel image processing pipeline in Python/NumPy on EC2 that automatically scales with demand. Web-based monitoring tools using Flask and Redis.
+    tools:
+        - Amazon Web Services
+        - Flask
+        - Redis
+        - D3
+        - Numpy / Scipy / iPython Notebook
+        - MediaWiki
+
+-
+    id: IRG
+    employer: Intelligent Robotics Group
+    institution: NASA Ames Research Center
+    title: Research Engineer
+    dates: May 2009 - Present
+    description: Lead development of large-scale distributed data processing pipeline to create high-resolution global maps of Mars from satellite imagery. Created full-stack web-based tools for NASA science data visualization, robotic field operations, and public outreach web destinations.
+    tools:
+        - Django
+        - MySql
+        - Sphinx
+        - JQuery
+        - Backbone.js / underscore.js
+        - Flot
+        - Google Earth and Maps APIs
+        - Google App Engine
+        - Google Cloud Storage
+        - MySQL, PostgreSQL, SQLite
+        - Couch DB
+        - Vision Workbench
+
+-
+    id: urbanmapping
+    employer: Urban Mapping Inc
+    title: Engineer / Project Manager
+    dates: Aug 2006 - Mar 2009
+    description: Built custom web-based tools for geographic data collection and analysis against a PostGIS database. Implemented RESTful geospatial data services. Managed data collection & research team. Maintained public web sites. System and network administration, project management, and customer technical service.
+    tools:
+        - PostgreSQL / PostGIS
+        - Ruby on Rails
+        - Python / Django
+        - SOAP and RESTful web services
+        - GDAL (Geodata Abstraction Layer) Tools
+        - Google Earth, Google Maps APIs
+        - Several open source GIS applications
+        - Linux VSverver Virtual Machines
+
+-
+    id: freelance
+    employer: Contractor
+    title: Web Developer
+    dates: Dec 2005 - Aug 2006
+    description: Various short-term contracts.
+    tools:
+        - HTML / CSS
+        - Prototype.js
+        - Ruby on Rails
+        - Movable Type
+        - DotNetNuke
+-
+    id: yale
+    employer: Yale School of Medicine
+    title: Research Assistant
+    dates: Oct 2004 - Nov 2005
+    description: Responsible for various aspects of data collection, analysis and storage related to an MR Spectroscopy / intracranial EEG research project. Built an interface to an experimental visualization toolset (Bioimaging Suite). Design and management of databases. Programming in TCL, Perl, and Matlab. Coordinated and communicated with technical experts.
+    tools:
+        - Perl
+        - TCL/Tk
+        - Matlab
+        - ImageJ
+-
+    id: cravath
+    employer: Cravath, Swaine, and Moore L.L.P.
+    title: Technical Analyst
+    dates: Aug 2003 - Jul 2004 
+    description: Built and maintained keyword-searchable document databases for litigation attorneys and paralegals. Assembled data for electronic evidence production. Diagnosed and resolved problems with existing databases. Built software tools as needed for these purposes. Responsible for purchase, installation, and user policy for a high-volume production document scanning system.

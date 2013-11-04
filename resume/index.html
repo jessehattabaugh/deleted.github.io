@@ -18,7 +18,7 @@
                 width: 50%;
             }
 
-            #details > p {
+            .job {
                 margin-left: 1em;
             }
 
@@ -56,59 +56,129 @@
 
                 <h2>Experience</h2>
 
-                <p><strong>CNC Lab</strong>, Stanford Univeristy<br/>
-                <em>Computational Research Engineer</em>
-                <span class="dates">May 2013 &#45; Present</span>
-                <br/>
-                Development of large&#45;scale parallel image processing pipeline in Python/NumPy on EC2 that automatically scales with demand.  Web&#45;based monitoring tools using Flask and Redis.
-                </p>
-
-                <p><strong>Intelligent Robotics Group</strong>, NASA Ames Research Center<br/>
-                <em>Research Engineer</em>
-                <span class="dates">May 2009 &#45; Present</span>
-                <br/>
-                Lead development of large&#45;scale distributed data processing pipeline to create high&#45;resolution global maps of Mars from satellite imagery. Created full&#45;stack web&#45;based tools for NASA science data visualization, robotic field operations, and public outreach.</p>
-
-                <p><strong>Urban Mapping Inc</strong><br/>
-                <em>Engineer / Project Manager</em>
-                <span class="dates">Aug 2006 &#45; Mar 2009</span>
-                <br/>
-                Built custom web&#45;based tools for geographic data collection and analysis in Ruby/Rails and Python/Django against a PostGIS database. Implemented RESTful geospatial data services. Managed data collectors. Maintained public web sites. System and network administration, project management, and customer service.</p>
-
-                <p><strong>Contract Web Developer</strong>
-                <span class="dates">Dec 2005 &#45; Aug 2006</span>
-                <br/>
-                Various short&#45;term web contracts in static HTML/CSS, Javascript, and Ruby on Rails.</p>
-
-                <p><strong>Yale School of Medicine</strong><br/>
-                <em>Research Assistant</em>
-                <span class="dates">Oct 2004 &#45; Nov 2005</span>
-                <br/>
-                Responsible for various aspects of data collection, analysis and storage related to an MR Spectroscopy / intracranial EEG research project. Built an interface to an experimental visualization toolset (Bioimaging Suite). Design and management of databases. Programming in TCL, Perl, and Matlab. Coordinated and communicated with technical experts.
-                </p>
-
-                <p><strong>Cravath, Swaine, and Moore L.L.P.</strong><br/>
-                <em>Technical Analyst</em>
-                <span class="dates">Aug 2003 &#45; Jul 2004</span>
-                <br/>
-                Built and maintained keyword&#45;searchable document databases for litigation attorneys and paralegals. Assembled data for electronic evidence production. Diagnosed and resolved problems with existing databases. Built software tools as needed for these purposes. Responsible for purchase, installation, and user policy for a high&#45;volume production document scanning system.
-                </p>
                 
-                <!--
-                <p><strong><em>Publications</em></strong></p>
+                <div class="job" id="CNC">
+                    <p><strong>CNC Lab</strong>, Stanford University<br/>
+                    <em>Computational Research Engineer</em>
+                    <span class="dates">May 2009 - Present</span>
+                    <br/>
+                    Development of large-scale parallel image processing pipeline in Python/NumPy on EC2 that automatically scales with demand. Web-based monitoring tools using Flask and Redis.
 
-                <p>E. B. Scharff, R. A. Beyer, M. Broxton, M. Lundy, J. Fay, P. Turcan, D. Fay, L. Messeri
-                <em>WordWide Telescope, Mars</em>
-                42nd Lunar and Planetary Science Conference (2011), Abstract #2337</p>
-
-                <p>Novotny EJ, Scharff E, Zaveri H, Blumenfeld H, Papademetris X, Spencer SS, Spencer DD, Duckrow RB, Hetherington HP, Duncan J. (2005). 
-                <em>Correlation of Magnetic Resonance Spectroscopic Imaging and intracranial EEG recording in lateralization of epilepsy.</em>
-                Soc. Neurosci. Abs., Online at http://web.sfn.org/</p>
-
-                <p>Scharff E, Zaveri H, Papademetris X, Blumenfeld H, Duckrow RB, Hetherington HP, Spencer SS, Spencer DD, Duncan J, Novotny EJ. (2005).
-                <em>Correlation of Magnetic Resonance Spectroscopic Imaging and Intracranial EEG localization of seizures.</em> Epilepsia. AES abstracts.</p>
-                -->
+                    
+                    <ul class="tools">
+                        
+                        <li>Amazon Web Services</li>
+                        <li>Flask</li>
+                        <li>Redis</li>
+                        <li>D3</li>
+                        <li>Numpy / Scipy / iPython Notebook</li>
+                        <li>MediaWiki</li>
+                    </ul>
+                    
+                    </p>
+                </div>
                 
+                <div class="job" id="IRG">
+                    <p><strong>Intelligent Robotics Group</strong>, NASA Ames Research Center<br/>
+                    <em>Research Engineer</em>
+                    <span class="dates">May 2009 - Present</span>
+                    <br/>
+                    Lead development of large-scale distributed data processing pipeline to create high-resolution global maps of Mars from satellite imagery. Created full-stack web-based tools for NASA science data visualization, robotic field operations, and public outreach web destinations.
+
+                    
+                    <ul class="tools">
+                        
+                        <li>Django</li>
+                        <li>MySql</li>
+                        <li>Sphinx</li>
+                        <li>JQuery</li>
+                        <li>Backbone.js / underscore.js</li>
+                        <li>Flot</li>
+                        <li>Google Earth and Maps APIs</li>
+                        <li>Google App Engine</li>
+                        <li>Google Cloud Storage</li>
+                        <li>MySQL, PostgreSQL, SQLite</li>
+                        <li>Couch DB</li>
+                        <li>Vision Workbench</li>
+                    </ul>
+                    
+                    </p>
+                </div>
+                
+                <div class="job" id="urbanmapping">
+                    <p><strong>Urban Mapping Inc</strong><br/>
+                    <em>Engineer / Project Manager</em>
+                    <span class="dates">Aug 2006 - Mar 2009</span>
+                    <br/>
+                    Built custom web-based tools for geographic data collection and analysis against a PostGIS database. Implemented RESTful geospatial data services. Managed data collection & research team. Maintained public web sites. System and network administration, project management, and customer technical service.
+
+                    
+                    <ul class="tools">
+                        
+                        <li>PostgreSQL / PostGIS</li>
+                        <li>Ruby on Rails</li>
+                        <li>Python / Django</li>
+                        <li>SOAP and RESTful web services</li>
+                        <li>GDAL (Geodata Abstraction Layer) Tools</li>
+                        <li>Google Earth, Google Maps APIs</li>
+                        <li>Several open source GIS applications</li>
+                        <li>Linux VSverver Virtual Machines</li>
+                    </ul>
+                    
+                    </p>
+                </div>
+                
+                <div class="job" id="freelance">
+                    <p><strong>Contractor</strong><br/>
+                    <em>Web Developer</em>
+                    <span class="dates">Dec 2005 - Aug 2006</span>
+                    <br/>
+                    Various short-term contracts.
+
+                    
+                    <ul class="tools">
+                        
+                        <li>HTML / CSS</li>
+                        <li>Prototype.js</li>
+                        <li>Ruby on Rails</li>
+                        <li>Movable Type</li>
+                        <li>DotNetNuke</li>
+                    </ul>
+                    
+                    </p>
+                </div>
+                
+                <div class="job" id="yale">
+                    <p><strong>Yale School of Medicine</strong><br/>
+                    <em>Research Assistant</em>
+                    <span class="dates">Oct 2004 - Nov 2005</span>
+                    <br/>
+                    Responsible for various aspects of data collection, analysis and storage related to an MR Spectroscopy / intracranial EEG research project. Built an interface to an experimental visualization toolset (Bioimaging Suite). Design and management of databases. Programming in TCL, Perl, and Matlab. Coordinated and communicated with technical experts.
+
+                    
+                    <ul class="tools">
+                        
+                        <li>Perl</li>
+                        <li>TCL/Tk</li>
+                        <li>Matlab</li>
+                        <li>ImageJ</li>
+                    </ul>
+                    
+                    </p>
+                </div>
+                
+                <div class="job" id="cravath">
+                    <p><strong>Cravath, Swaine, and Moore L.L.P.</strong><br/>
+                    <em>Technical Analyst</em>
+                    <span class="dates">Aug 2003 - Jul 2004</span>
+                    <br/>
+                    Built and maintained keyword-searchable document databases for litigation attorneys and paralegals. Assembled data for electronic evidence production. Diagnosed and resolved problems with existing databases. Built software tools as needed for these purposes. Responsible for purchase, installation, and user policy for a high-volume production document scanning system.
+
+                    
+                    </p>
+                </div>
+                
+
             </section>
         </div>
 

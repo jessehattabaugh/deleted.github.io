@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <style>
+            body {
+                font&#45;family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+                margin-left: 20px;
+                font-family: "Trebuchet MS", Helvetica, sans-serif;
+            }
+
+            em {
+                color: #098003;
+                font-style: normal;
+            }
+            #details {
+                margin-left: 2em;
+                width: 50%;
+            }
+
+            .job {
+                margin-left: 1em;
+            }
+
+            .dates {
+                margin-left: 20px;
+                color: #666666;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wraper">
+            <section id="head">
+                <h1>Edward B. Scharff         <div style="float:right">ted.scharff@gmail.com / 646.522.4064</div></h1>
+
+                <h2>Software &amp; Data Engineering</h2>
+                <p>A <a href="http://www.dungeonsanddevelopers.com/#_a2b2cde3fghi2jklm2n2opqrstuvx2yz_15_Tedward">Level 34</a> Web Developer</p>
+
+                <hr />
+            </section>
+
+            <section id="details">
+
+                <h2>Education</h2>
+
+                <p>Columbia University, New York, 1998&#45;2002<br/>
+                BA Cognitive Psychology.<br/>
+                Additional coursework in Computer Science.</p>
+
+                <h2>Languages</h2>
+
+                <p>Fluent in Python, Javascript, bash/zsh, HTML &amp; CSS, SQL. 
+                Experience in Matlab, C, Ruby, Perl, TCL/Tk, vb.net, Java.
+                Some familiarity with C++, R, Scheme.</p>
+
+                <h2>Experience</h2>
+
+                {% for job in jobs %}
+                <div class="job" id="{{job.id}}">
+                    <p><strong>{{job.employer}}</strong>{% if job.institution %}, {{job.institution}}{% endif %}<br/>
+                    <em>{{job.title}}</em>
+                    <span class="dates">{{job.dates}}</span>
+                    <br/>
+                    {{job.description}}
+
+                    {% if job.tools %}
+                    <ul class="tools">
+                        {% for tool in job.tools %}
+                        <li>{{tool}}</li>{% endfor %}
+                    </ul>
+                    {% endif %}
+                    </p>
+                </div>
+                {% endfor %}
+
+            </section>
+        </div>
+
+
+    </body>
+</html>
