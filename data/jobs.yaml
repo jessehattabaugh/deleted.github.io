@@ -35,7 +35,6 @@
         - MySQL, PostgreSQL, SQLite
         - CouchDB
         - Sphinx
-        - Varnish
         - Amazon EC2
         - Vagrant
         - Varnish
