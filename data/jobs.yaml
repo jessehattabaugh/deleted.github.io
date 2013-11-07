@@ -12,6 +12,7 @@
         - Celery / AMQP
         - Redis
         - D3
+        - CoffeeScript
         - Numpy / Scipy / iPython Notebook
         - MediaWiki
 
