@@ -73,7 +73,7 @@
     employer: Yale School of Medicine
     title: Research Assistant
     dates: Oct 2004 - Nov 2005
-    description: Responsible for various aspects of data collection, analysis and storage related to an MR Spectroscopy / intracranial EEG research project. Built an interface to an experimental visualization toolset (Bioimaging Suite). Design and management of databases. Programming in TCL, Perl, and Matlab. Coordinated and communicated with technical experts.
+    description: Responsible for various aspects of data collection, analysis and storage related to an MR Spectroscopy / intracranial EEG research project. Built an interface to an experimental visualization toolset (Bioimaging Suite). Design and management of databases. Programming in TCL, Perl, and Matlab. Coordinated with domain experts.
     tools:
         - Perl
         - TCL/Tk

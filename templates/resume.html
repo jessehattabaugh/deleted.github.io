@@ -44,7 +44,7 @@
             <section id="head">
                 <h1>Edward B. Scharff         <div id="contact_info">ted.scharff@gmail.com <br/> 646.522.4064</div></h1>
 
-                <h2>Full-Stack Web Development</h2>
+                <h2>Full-Stack Web Development and Data Systems Engineering</h2>
                 <!-- <p>A <a href="http://www.dungeonsanddevelopers.com/#_a2b2cde3fghi2jklm2n2opqrstuvx2yz_15_Tedward">Level 34</a>Web Developer</p> -->
 
                 <hr />
@@ -86,16 +86,27 @@
 
             </section>
 
+            {% if hobbies %}
             <section id="interests">
-                {% if hobbies %}
                 <h2>Hobbies and other Interests</h2>
                 <ul>
                     {% for hobby in hobbies %}
                     <li>{{hobby}}</li>
                     {% endfor %}
                 </ul>
-                {% endif  %}
             </section>
+            {% endif  %}
+
+            {% if publications %}
+            <section id="publications">
+                <h2>Publications</h2>
+                <ul>
+                    {% for pub in publications %}
+                    <li>{{pub}}</li>
+                    {% endfor %}
+                </ul>
+            </section>
+            {% endif %}
         </div>
 
 

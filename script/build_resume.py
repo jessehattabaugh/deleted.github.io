@@ -6,7 +6,11 @@ import yaml
 cwd = os.getcwd()
 jobs_data_filename = os.path.join(cwd, 'data/jobs.yaml')
 hobbies_filename = os.path.join(cwd, 'data/hobbies.yaml')
-outfile_name = 'resume/index.html'
+resume_outfile_name = 'resume/index.html'
+do_cv = True
+if do_cv:
+    cv_outfile_name = 'resume/cv.html'
+
 
 with open(jobs_data_filename) as jobsfile:
     jobs = yaml.load(jobsfile.read())
@@ -22,6 +26,15 @@ output = template.render(
             hobbies=hobbies,
         ).encode('utf8')
 
-with open(outfile_name, 'w') as testfile:
-    testfile.write(output)
-print "Wrote to %s" % outfile_name
+with open(resume_outfile_name, 'w') as resume_file:
+    resume_file.write(output)
+print "Wrote to %s" % resume_outfile_name
+
+if do_cv:
+    output = template.render(
+            jobs=jobs,
+            mode='cv'
+        ).encode('utf8')
+    with open(cv_outfile_name, 'w') as cvfile:
+        cvfile.write(output)
+    print "Wrote to %s" % cv_outfile_name
